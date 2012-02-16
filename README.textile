@@ -8,9 +8,9 @@ h2. Installation
 h2. Usage
 
 
-On category pages you can now use the newly added "magic word":http://www.mediawiki.org/wiki/Help:Magic_words **\_\_CUSTOM\_CATEGORY\_PAGE\_\_**
+On category pages you can now use the newly added "magic word":http://www.mediawiki.org/wiki/Help:Magic_words **__CUSTOM_CATEGORY_PAGE__**
 in order to turn off rendering of the list of pages in this category. From there on its up to you to make sure the page displays what it should, in a way you like.
 
 h2. Remarks
 
-Using the magic word will not suppress the native page listing in preview mode. This is "known behaviour:http://www.mediawiki.org/wiki/Manual:Hooks/CategoryPageView#Notes
+Using the magic word will not suppress the native page listing in preview mode. This is "known behaviour":http://www.mediawiki.org/wiki/Manual:Hooks/CategoryPageView#Notes
