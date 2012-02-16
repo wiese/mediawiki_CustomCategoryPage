@@ -1,17 +1,5 @@
 <?php
 
-$wgExtensionCredits['parserhook'][] = array(
-	'name' => 'CustomCategoryPage',
-	'author' =>'wiese',
-	'url' => '',
-	'description' => 
-		'Allows for customizing of category pages. Magic word '.
-		'__CUSTOM_CATEGORY_PAGE__ disables list of pages. The rest is DIY.',
-	'descriptionmsg' => '',
-	'version' => '0.1',
-	'path' => __FILE__,
-);
-
 class CustomCategoryPage {
 
 	const MAGIC_WORD_ID = 'MAG_CUSTOMCATEGORYPAGE';
@@ -60,9 +48,3 @@ class CustomCategoryPage {
 		return true;
 	}
 }
-
-$wgHooks['CategoryPageView'][] = 'CustomCategoryPage::view';
-$wgHooks['MagicWordMagicWords'][] = 'CustomCategoryPage::addMagicWord';
-$wgHooks['MagicWordwgVariableIDs'][] = 'CustomCategoryPage::addMagicWordId';
-$wgHooks['LanguageGetMagic'][] = 'CustomCategoryPage::addMagicWordLanguage';
-$wgHooks['ParserBeforeTidy'][] = 'CustomCategoryPage::checkForMagicWord';
