@@ -8,7 +8,7 @@ h2. Installation
 h2. Usage
 
 
-On category pages you can now use the newly added "magic word":http://www.mediawiki.org/wiki/Help:Magic_words **__CUSTOM_CATEGORY_PAGE__**
+On category pages you can now use the newly added "magic word":http://www.mediawiki.org/wiki/Help:Magic_words **\_\_CUSTOM_CATEGORY_PAGE\_\_**
 in order to turn off rendering of the list of pages in this category. From there on its up to you to make sure the page displays what it should, in a way you like.
 
 h2. Remarks
