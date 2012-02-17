@@ -2,7 +2,7 @@ h1. CustomCategoryPage extension for MediaWiki
 
 h2. Installation
 
-* Download the files and and place them under **$IP/extensions/CustomCategoryPage**
+* Download the files and place them under **$IP/extensions/CustomCategoryPage**
 * Add **require_once("$IP/extensions/CustomCategoryPage/hooks.php");** to the end of LocalSettings.php
 
 h2. Usage
